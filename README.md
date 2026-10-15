@@ -9,6 +9,14 @@ Nodejs and npm should be installed. Additionally, install the packages required 
 npm i 
 ```
 
+## Configuration
+
+1. Create an OAuth 2.0 *Web application* client in the [Google Cloud Console](https://console.cloud.google.com/apis/credentials) with the Sheets API enabled.
+2. Copy `credentials.example.json` to `credentials.json` and fill in your client ID and secret.
+3. Copy `.env.example` to `.env`.
+
+`credentials.json`, `token.json` and `.env` are git-ignored, so don't commit them.
+
 ## Run the project
 
 Run using the command
